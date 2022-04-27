@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>F4LIFE - Moradias Universitárias</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+		<link href="css/base.css" rel="stylesheet">
+		<script src="js/main.js"></script>
+        
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img src="img/logo.png" alt="Logo da F4LIFE" class="cabecalho_logo">
+            <nav class="cabecalho_navegacao">
+                <ul>
+                    <li class="cabecalho_link"><a href="#principal">Quem Somos</a></li>
+                    <li class="cabecalho_link"><a href="#vantagens">Vantagens</a></li>
+                    <li class="cabecalho_link"><a href="#localizacao">Localização</a></li>
+                    <li class="cabecalho_link"><a href="#fale_conosco">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+    	<main>
+			<section class="principal" id="principal">
+				<h1 class="titulo-principal">Quem Somos</h1></br>
+
+				<p>F4LIFE é uma empresa de aluguéis de repúblicas para pessoas universitárias.</p></br>
+
+				<p>Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas e prepara moradias para recepção de pessoas universitárias em um ambiente específico e otimizado para a vida de graduação.</p></br>
+			</section>
+			<section class="vantagens" id="vantagens">
+				<h3 class="titulo-principal">Vantagens</h3>
+				<div class="conteudo-vantagens">
+
+					<ul class="lista-vantagens">
+						<li class="itens">Economia;</li>
+						<li class="itens">Convívio Social;</li>
+						<li class="itens">Novas Amizades;</li>
+						<li class="itens">Ajuda nos Estudos;</li>
+						<li class="itens">Divisão das Tarefas Domésticas;</li>
+						<li class="itens">Amadurecimento Emocional.</li>
+					</ul>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/7ckeHj3KdA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+			<section class="mapa" id="localizacao">
+				<h3 class="titulo-principal">Localização</h3></br>
+				<p>Nosso estabelecimento está localizado no aeroporto Congonhas de São Paulo.</p></br>
+				<div class="mapa-conteudo">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.358759709491!2d-46.658772885420404!3d-23.62731966991557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a7ab9d400f3%3A0x3ae70697e64d7085!2sAeroporto%20de%20S%C3%A3o%20Paulo%2FCongonhas!5e0!3m2!1spt-BR!2sbr!4v1647707337428!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</section>
+			<section class="fale_conosco" id="fale_conosco">
+				<h3 class="titulo-principal">Fale Conosco</h3></br>
+				<form name="formulario">
+										
+					<label for="email">E-mail</label>
+					<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+					
+					<label for="telefone">Telefone</label>
+					<input type="telefone" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+					
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+					<fieldset>
+						<legend class="teste" id="teste">Como prefere nosso contato?</legend>
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>E-mail</label>
+						
+	
+						<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+						
+	
+						<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+						
+					</fieldset>
+					<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+        <input type="submit" value="Enviar formulário" class="enviar" onclick="enviarForm()">        
+      </form>
+      </section>	
+		</main>
+		<footer>
+			<a href="https://pt-br.facebook.com/" target="_blank" class="logo_midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a>
+			<a href="https://twitter.com/" target="_blank" class="logo_midia"><img src="img/twitter.png" alt="Ícone do Twitter"></a>
+			<a href="https://www.instagram.com/" target="_blank" class="logo_midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></br>
+			<img src="img/logo.png" alt="Logo da F4LIFE" class="rodape_logo">
+			<p class="copyright">&copy; Copyright F4LIFE</p>
+		</footer>
+	</body>
+</html>
